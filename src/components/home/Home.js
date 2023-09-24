@@ -3,7 +3,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 
 import '../home/home.css';
 import '../../assets/css/bootstrap.min.css';
-import '../../assets/css/aos.css';
+// import '../../assets/css/aos.css';
 import '../../assets/css/line-awesome.min.css';
 import '../../assets/css/style.css';
 
@@ -21,11 +21,13 @@ import blogpostthree from '../../assets/images/blog-post-3.jpg';
 
 
 
-function Home() {
+export default function Home() {
   return (
     <>
     <BrowserRouter>
       {/* <!-- NAVBAR --> */}
+
+      <p>test</p>
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container flex-lg-column">
             <Link className="navbar-brand mx-lg-auto mb-lg-4" to=' '>
@@ -497,4 +499,3 @@ function Home() {
   )
 }
 
-export default Home
