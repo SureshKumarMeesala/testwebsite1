@@ -479,7 +479,7 @@ export default function Home() {
             <div className="container">
                 <div className="row gy-4 justify-content-between">
                     <div className="col-auto">
-                        <p className="mb-0">Designed by <Link href="#" className="fw-bold">SA7MAN</Link></p>
+                        <p className="mb-0">Developed by <Link href="#" className="fw-bold">Suresh Kumar M</Link></p>
                     </div>
                     <div className="col-auto">
                         <div className="social-icons">
