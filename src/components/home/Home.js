@@ -1,4 +1,5 @@
 import React from 'react';
+import { ContactUs } from '../contact-form/ContactForm';
 import { BrowserRouter, Link } from 'react-router-dom';
 
 import '../home/home.css';
@@ -465,6 +466,8 @@ export default function Home() {
                         </form>
                     </div>
                 </div>
+
+                <div><ContactUs /></div>
 
 
             </div>
