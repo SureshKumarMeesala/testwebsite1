@@ -8,7 +8,7 @@ import '../../assets/css/bootstrap.min.css';
 import '../../assets/css/line-awesome.min.css';
 import '../../assets/css/style.css';
 
-import person from '../../assets/images/person.jpg';
+import person from '../../assets/images/person.png';
 import projectone from '../../assets/images/project-1.jpg';
 import projecttwo from '../../assets/images/project-2.png';
 import projectthree from '../../assets/images/project-3.png';
@@ -98,7 +98,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-10">
                         <h1 className="display-4 fw-bold" data-aos="fade-up">I'M A <span className="text-brand">UI/UX
-                                WEB DEELOPER </span> FROM VIZAG, INDIA</h1>
+                                WEB DEVELOPER </span> FROM VIZAG, INDIA</h1>
                         <p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Suresh Kumar M, And I craft
                             high-performing and delightful experiences tailored and conversion-focused</p>
                         <div data-aos="fade-up" data-aos-delay="600">
@@ -489,11 +489,13 @@ export default function Home() {
                     <div className="col-lg-8" data-aos="fade-up" data-aos-delay="300">
 
                         {isSuccess ? (
-                                <div>
+                                <div className='thankyou-message'>
                                 <p>Thanks for Contact Me, Will get in touch in no time</p>
                                 {/* You can add any additional content or redirection logic here */}
                                 </div>
-                            ) : (
+                                      ) : (
+                                        <div></div>
+                                )}
                         <form action="#" className="row g-lg-3 gy-3" ref={form} onSubmit={sendEmail}>
                             <div className="form-group col-md-6">
                                 <input type="text" name="user_name" className="form-control" placeholder="Enter your name" />
@@ -511,7 +513,7 @@ export default function Home() {
                                 <button type="submit" value="Send" className="btn btn-brand">Contact me</button>
                             </div>
                         </form>
-                        )}
+                      
 
                     </div>
                 </div>
