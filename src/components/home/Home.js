@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { BrowserRouter, Link } from 'react-router-dom';
+import { ExternalLink } from 'react-external-link';
+
 
 import '../home/home.css';
 import '../../assets/css/bootstrap.min.css';
@@ -99,8 +101,8 @@ export default function Home() {
                     <div className="col-lg-10">
                         <h1 className="display-4 fw-bold" data-aos="fade-up">I'M A <span className="text-brand">UI/UX
                                 WEB DEVELOPER </span> FROM VIZAG, INDIA</h1>
-                        <p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Suresh Kumar M, And I craft
-                            high-performing and delightful experiences tailored and conversion-focused</p>
+                        <p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Suresh Kumar M, And I am with a relentless passion for crafting extraordinary digital experiences. With 5 years of hands-on experience, I have honed my skills in both job-based roles and exciting contractual engagements, fostering a diverse portfolio of captivating projects.</p>
+
                         <div data-aos="fade-up" data-aos-delay="600">
                             <Link href="#work" className="btn btn-brand me-3">Explore My Work</Link>
                             <Link href="#" className="link-custom">Call: +91 739 644 5564</Link>
@@ -534,10 +536,10 @@ export default function Home() {
                     </div>
                     <div className="col-auto">
                         <div className="social-icons">
-                            <Link href="#"><i className="lab la-twitter"></i></Link>
-                            <Link href="#"><i className="lab la-instagram"></i></Link>
-                            <Link href="#"><i className="lab la-dribbble"></i></Link>
-                            <Link href="#"><i className="lab la-github"></i></Link>
+                            <ExternalLink href="https://example.com"> <i className="lab la-twitter"></i></ExternalLink>
+                            <ExternalLink href="https://example.com"> <i className="lab la-instagram"></i></ExternalLink>
+                            <ExternalLink href="https://example.com"> <i className="lab la-dribbble"></i></ExternalLink>
+                            <ExternalLink href="https://example.com"> <i className="lab la-github"></i></ExternalLink>
                         </div>
                     </div>
                 </div>
