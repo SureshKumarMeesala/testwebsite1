@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/testwebsite1/static/css/main.b3bece06.css",
-    "main.js": "/testwebsite1/static/js/main.08ee86b4.js",
+    "main.css": "/testwebsite1/static/css/main.c6fb644f.css",
+    "main.js": "/testwebsite1/static/js/main.cd94dedc.js",
     "static/js/787.381d1261.chunk.js": "/testwebsite1/static/js/787.381d1261.chunk.js",
     "static/media/project-4.png": "/testwebsite1/static/media/project-4.5306cdbf2762eac2b503.png",
     "static/media/project-3.png": "/testwebsite1/static/media/project-3.44b77e6df2b5c14504ca.png",
@@ -9,6 +9,7 @@
     "static/media/la-solid-900.svg": "/testwebsite1/static/media/la-solid-900.a813034654b4ff0a0bac.svg",
     "static/media/project-1.jpg": "/testwebsite1/static/media/project-1.1bc16db782e3c1c45ed7.jpg",
     "static/media/project-2.png": "/testwebsite1/static/media/project-2.c8f203688f68ebf19e81.png",
+    "static/media/person.png": "/testwebsite1/static/media/person.c97283a2bdba31c32160.png",
     "static/media/la-solid-900.eot": "/testwebsite1/static/media/la-solid-900.4184d740eae2fb727bfe.eot",
     "static/media/la-solid-900.ttf": "/testwebsite1/static/media/la-solid-900.279f38601f1d1655255f.ttf",
     "static/media/blog-post-2.jpg": "/testwebsite1/static/media/blog-post-2.aa87e03aae898346db29.jpg",
@@ -24,16 +25,15 @@
     "static/media/blog-post-3.jpg": "/testwebsite1/static/media/blog-post-3.ff885e8dc1b7d6851f50.jpg",
     "static/media/la-regular-400.eot": "/testwebsite1/static/media/la-regular-400.77111476f05dd3443047.eot",
     "static/media/la-regular-400.ttf": "/testwebsite1/static/media/la-regular-400.cf246e21218cab398b3d.ttf",
-    "static/media/person.jpg": "/testwebsite1/static/media/person.4c98ec459155340207cc.jpg",
     "static/media/la-regular-400.woff": "/testwebsite1/static/media/la-regular-400.aa859c0d08b8193d6586.woff",
     "static/media/la-regular-400.woff2": "/testwebsite1/static/media/la-regular-400.8dc1cedf1f4987f82b72.woff2",
     "index.html": "/testwebsite1/index.html",
-    "main.b3bece06.css.map": "/testwebsite1/static/css/main.b3bece06.css.map",
-    "main.08ee86b4.js.map": "/testwebsite1/static/js/main.08ee86b4.js.map",
+    "main.c6fb644f.css.map": "/testwebsite1/static/css/main.c6fb644f.css.map",
+    "main.cd94dedc.js.map": "/testwebsite1/static/js/main.cd94dedc.js.map",
     "787.381d1261.chunk.js.map": "/testwebsite1/static/js/787.381d1261.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3bece06.css",
-    "static/js/main.08ee86b4.js"
+    "static/css/main.c6fb644f.css",
+    "static/js/main.cd94dedc.js"
   ]
 }
