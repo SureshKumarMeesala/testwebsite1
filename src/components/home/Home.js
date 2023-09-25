@@ -81,12 +81,12 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-10">
                         <h1 className="display-4 fw-bold" data-aos="fade-up">I'M A <span className="text-brand">UI/UX
-                                DESIGNER</span> FROM LONDON, UK</h1>
-                        <p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am John Doe, And I craft
+                                WEB DEELOPER </span> FROM VIZAG, INDIA</h1>
+                        <p className="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Suresh Kumar M, And I craft
                             high-performing and delightful experiences tailored and conversion-focused</p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <Link href="#work" className="btn btn-brand me-3">Explore My Work</Link>
-                            <Link href="#" className="link-custom">Call: (233) 3454 2342</Link>
+                            <Link href="#" className="link-custom">Call: +91 749 644 5564</Link>
                         </div>
                     </div>
                 </div>
@@ -108,35 +108,46 @@ export default function Home() {
 
                 <div className="row gy-4">
 
-                    <div className="col-md-4" data-aos="fade-up">
+                    <div className="col-md-4 service-col" data-aos="fade-up">
                         <div className="service p-4 bg-base rounded-4 shadow-effect">
                             <div className="iconbox rounded-4">
                                 <i className="las la-feather"></i>
                             </div>
-                            <h5 className="mt-4 mb-2">UX Design</h5>
+                            <h5 className="mt-4 mb-2">UI UX Developement</h5>
                             <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
                             <Link href="#" className="link-custom">Read More</Link>
                         </div>
                     </div>
 
-                    <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div className="col-md-4 service-col" data-aos="fade-up" data-aos-delay="300">
                         <div className="service p-4 bg-base rounded-4 shadow-effect">
                             <div className="iconbox rounded-4">
                                 <i className="las la-pencil-ruler"></i>
                             </div>
-                            <h5 className="mt-4 mb-2">Branding</h5>
-                            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
+                            <h5 className="mt-4 mb-2">Web Development</h5>
+                            <p>Expert web development services, building responsive and user-friendly websites. Utilizing cutting-edge technologies to deliver seamless digital solutions that elevate your online presence.</p>
                             <Link href="#" className="link-custom">Read More</Link>
                         </div>
                     </div>
 
-                    <div className="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div className="col-md-4 service-col" data-aos="fade-up" data-aos-delay="600">
                         <div className="service p-4 bg-base rounded-4 shadow-effect">
                             <div className="iconbox rounded-4">
                                 <i className="las la-laptop-code"></i>
                             </div>
-                            <h5 className="mt-4 mb-2">Web Designing</h5>
-                            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
+                            <h5 className="mt-4 mb-2">SEO / Digital Marketing</h5>
+                            <p>Empowering businesses with SEO and Digital Marketing expertise. Crafted with precision and creativity, I drive results that exceed expectations and amplify online presence.</p>
+                            <Link href="#" className="link-custom">Read More</Link>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 service-col" data-aos="fade-up" data-aos-delay="600">
+                        <div className="service p-4 bg-base rounded-4 shadow-effect">
+                            <div className="iconbox rounded-4">
+                                <i className="las la-laptop-code"></i>
+                            </div>
+                            <h5 className="mt-4 mb-2">Open Source CRM/ERP</h5>
+                            <p>Unlock business potential with Open Source CRM/ERP solutions. Streamlined operations, seamless integration, and cost-effective tools for efficient management and growth acceleration.</p>
                             <Link href="#" className="link-custom">Read More</Link>
                         </div>
                     </div>
@@ -236,27 +247,39 @@ export default function Home() {
 
                             <div className="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div className="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p className="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
+                                    <h4>Graduate in BCom</h4>
+                                    <p className="text-brand mb-2">GITAM University (2015)</p>
                                     <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
 
                             <div className="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div className="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p className="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
+                                    <h4>CS50x</h4>
+                                    <p className="text-brand mb-2">Cambridge, Massachusetts (2022)</p>
+                                    <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                                </div>
+                            </div>
+
+                            <h3 className="mb-4" data-aos="fade-up" data-aos-delay="300">Non IT Experiance</h3>
+
+                            <div className="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div className="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Business Development Manager</h4>
+                                    <p className="text-brand mb-2">Taashee Linux Services (May 2017 to Dec 2018)</p>
                                     <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
 
                             <div className="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div className="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p className="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
+                                    <h4>Business Development Executive</h4>
+                                    <p className="text-brand mb-2">Mastek Systems (Sept 2015 to May 2017)</p>
                                     <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
+
+                
 
                         </div>
 
@@ -264,29 +287,29 @@ export default function Home() {
 
                     <div className="col-lg-6">
 
-                        <h3 className="mb-4" data-aos="fade-up" data-aos-delay="300">Experiance</h3>
+                        <h3 className="mb-4" data-aos="fade-up" data-aos-delay="300">Software Experiance</h3>
                         <div className="row gy-4">
 
                             <div className="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div className="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p className="text-brand mb-2">Twitter (2018 - 2020)</p>
+                                    <h4>Sr Web Developer</h4>
+                                    <p className="text-brand mb-2">Oz Digital Pvt Ltd ( Part Time ) (May 2023 - Present)</p>
                                     <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
 
                             <div className="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div className="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p className="text-brand mb-2">Twitter (2018 - 2020)</p>
+                                    <h4>UI/UX Developer</h4>
+                                    <p className="text-brand mb-2">Solid Online International (April 2022 to Jan 2023)</p>
                                     <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
 
                             <div className="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div className="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p className="text-brand mb-2">Twitter (2018 - 2020)</p>
+                                    <h4>Web Developer</h4>
+                                    <p className="text-brand mb-2">Taashee Linux Services Pvt Ltd (Jan 2019 to Feb 2022)</p>
                                     <p className="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
