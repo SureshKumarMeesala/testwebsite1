@@ -43,11 +43,10 @@ export default function Home() {
     <BrowserRouter>
       {/* <!-- NAVBAR --> */}
 
-      <p>test</p>
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container flex-lg-column">
             <Link className="navbar-brand mx-lg-auto mb-lg-4" to=' '>
-                <span className="h3 fw-bold d-block d-lg-none">Jon Carter</span>
+                <span className="h3 fw-bold d-block d-lg-none">Suresh Kumar M</span>
                 <img src={person} className="d-none d-lg-block rounded-circle" alt="" />
                     
             </Link>
@@ -101,7 +100,7 @@ export default function Home() {
                             high-performing and delightful experiences tailored and conversion-focused</p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <Link href="#work" className="btn btn-brand me-3">Explore My Work</Link>
-                            <Link href="#" className="link-custom">Call: +91 749 644 5564</Link>
+                            <Link href="#" className="link-custom">Call: +91 739 644 5564</Link>
                         </div>
                     </div>
                 </div>
@@ -493,7 +492,7 @@ export default function Home() {
                                 <input type="email" name="user_email" className="form-control" placeholder="Enter your email" />
                             </div>
                             <div className="form-group col-12">
-                                <input type="text" className="form-control" placeholder="Enter subject" />
+                                <input type="text" name="user_subject" className="form-control" placeholder="Enter subject" />
                             </div>
                             <div className="form-group col-12">
                                 <textarea name="message" rows="4" className="form-control" placeholder="Enter your message"></textarea>
