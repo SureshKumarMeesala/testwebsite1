@@ -1,5 +1,5 @@
-import React from 'react';
-import { ContactUs } from '../contact-form/ContactForm';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { BrowserRouter, Link } from 'react-router-dom';
 
 import '../home/home.css';
@@ -23,6 +23,21 @@ import blogpostthree from '../../assets/images/blog-post-3.jpg';
 
 
 export default function Home() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_2hi73p9', 'template_5w5j9ih', form.current, 'Ihus0Qj65tKulpvCG')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
+    
   return (
     <>
     <BrowserRouter>
@@ -470,27 +485,27 @@ export default function Home() {
                     </div>
 
                     <div className="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="#" className="row g-lg-3 gy-3">
+                        <form action="#" className="row g-lg-3 gy-3" ref={form} onSubmit={sendEmail}>
                             <div className="form-group col-md-6">
-                                <input type="text" className="form-control" placeholder="Enter your name" />
+                                <input type="text" name="user_name" className="form-control" placeholder="Enter your name" />
                             </div>
                             <div className="form-group col-md-6">
-                                <input type="email" className="form-control" placeholder="Enter your email" />
+                                <input type="email" name="user_email" className="form-control" placeholder="Enter your email" />
                             </div>
                             <div className="form-group col-12">
                                 <input type="text" className="form-control" placeholder="Enter subject" />
                             </div>
                             <div className="form-group col-12">
-                                <textarea name="" rows="4" className="form-control" placeholder="Enter your message"></textarea>
+                                <textarea name="message" rows="4" className="form-control" placeholder="Enter your message"></textarea>
                             </div>
                             <div className="form-group col-12 d-grid">
-                                <button type="submit" className="btn btn-brand">Contact me</button>
+                                <button type="submit" value="Send" className="btn btn-brand">Contact me</button>
                             </div>
                         </form>
                     </div>
                 </div>
 
-                <div><ContactUs /></div>
+             
 
 
             </div>
